@@ -1,2 +1,1 @@
-# ClassIntro
 Class Introduction
