@@ -4,55 +4,46 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-  //Class yapısını anlama
-namespace ClassIntro
+namespace MethodsIntro
 {
     class Program
     {
-        //String tutmak yerine class tuttum. Sadece istediğim kadar veri tanımlayabiliyorum.
         static void Main(string[] args)
         {
-            //Kurs1 e ait özellikler
-            Kurs kurs1 = new Kurs();  //Kurs artık benim veri tipim
-            kurs1.KursAdi = "C#";
-            kurs1.Egitmen = "Derya Yılmaz";
-            kurs1.IzlenmeOrani = 90;
+            Product urun1 = new Product();
+            urun1.Name = "Elma";
+            urun1.Price = 15;
+            urun1.Explanation = "Amasya Elması";
 
-            //Kurs2 ye ait özellikler
-            Kurs kurs2 = new Kurs();
-            kurs2.KursAdi = "C++";
-            kurs2.Egitmen = "Betül Yılmaz";
-            kurs2.IzlenmeOrani = 60;
+            Product urun2 = new Product();
+            urun2.Name = "Kayısı";
+            urun2.Price = 12;
+            urun2.Explanation = "Malatya Kayısısı";
 
-            //Kur3 e ait özellikler
-            Kurs kurs3 = new Kurs();
-            kurs3.KursAdi = "Phyton";
-            kurs3.Egitmen = "Emir Yılmaz";
-            kurs3.IzlenmeOrani = 90;
+            Product[] urunler = new Product[] { urun1, urun2 };
 
-            //Kurs4 e ait özellikler
-            Kurs kurs4 = new Kurs();
-            kurs4.KursAdi = "React";
-            kurs4.Egitmen = "Tahir Yılmaz";
-            kurs4.IzlenmeOrani = 90;
-
-           //Console.WriteLine(kurs1.KursAdi + ":" + kurs1.Egitmen);
-            Kurs[] kurslar = new Kurs[] {kurs1, kurs2, kurs3, kurs4 };
-            foreach (Kurs kurs in kurslar) //Hangi veritipinde ise öyle yazıyorsun.
+            //type-safe
+            foreach (Product urun in urunler) //Dzileri dönerken foreach kullanabiliyoruz.
             {
-                Console.WriteLine(kurs.KursAdi + ":" +kurs.Egitmen);
+                Console.WriteLine(urun.Name);
+                Console.WriteLine(urun.Price);
+                Console.WriteLine(urun.Explanation);
+                Console.WriteLine("---------------");
             }
+            Console.WriteLine("-------Methodlar------");
 
-            Console.ReadKey();        }
-    }
+            //encapsulation -- Ayrı ayrı düzensiz bir yapı yazmak yerine bir düzen içerisinde yazmamızı sağlamaktır.
 
-    //Kendi veri tipini yazıyormuşsun gibi düşün
-    // İçerisinde istediğim özellikleri tanımlıyorum ve değişken gibi ağırıyorum
-    class Kurs
-    {
-        public string KursAdi { get; set; }
-        public string Egitmen { get; set; }
-        public int IzlenmeOrani { get; set; }
+            BasketManager basketManager = new BasketManager();
+            basketManager.Ekle(urun1);
+            basketManager.Ekle(urun2);
+            basketManager.EkleAlternatif("Armut", "Yeşil", 12); ;
+            
+
+
+
+
+            Console.ReadKey();
+        }
     }
-    
 }
