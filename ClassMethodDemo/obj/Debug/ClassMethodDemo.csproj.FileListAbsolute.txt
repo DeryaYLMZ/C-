@@ -1,0 +1,7 @@
+C:\Users\CASPER\source\repos\ConsoleApp3\ClassMethodDemo\bin\Debug\ClassMethodDemo.exe.config
+C:\Users\CASPER\source\repos\ConsoleApp3\ClassMethodDemo\bin\Debug\ClassMethodDemo.exe
+C:\Users\CASPER\source\repos\ConsoleApp3\ClassMethodDemo\bin\Debug\ClassMethodDemo.pdb
+C:\Users\CASPER\source\repos\ConsoleApp3\ClassMethodDemo\obj\Debug\ClassMethodDemo.csprojAssemblyReference.cache
+C:\Users\CASPER\source\repos\ConsoleApp3\ClassMethodDemo\obj\Debug\ClassMethodDemo.csproj.CoreCompileInputs.cache
+C:\Users\CASPER\source\repos\ConsoleApp3\ClassMethodDemo\obj\Debug\ClassMethodDemo.exe
+C:\Users\CASPER\source\repos\ConsoleApp3\ClassMethodDemo\obj\Debug\ClassMethodDemo.pdb

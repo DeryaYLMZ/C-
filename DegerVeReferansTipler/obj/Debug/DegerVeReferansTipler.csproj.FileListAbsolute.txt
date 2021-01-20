@@ -1,0 +1,6 @@
+C:\Users\CASPER\source\repos\ConsoleApp3\DegerVeReferansTipler\obj\Debug\DegerVeReferansTipler.csproj.CoreCompileInputs.cache
+C:\Users\CASPER\source\repos\ConsoleApp3\DegerVeReferansTipler\bin\Debug\DegerVeReferansTipler.exe.config
+C:\Users\CASPER\source\repos\ConsoleApp3\DegerVeReferansTipler\bin\Debug\DegerVeReferansTipler.exe
+C:\Users\CASPER\source\repos\ConsoleApp3\DegerVeReferansTipler\bin\Debug\DegerVeReferansTipler.pdb
+C:\Users\CASPER\source\repos\ConsoleApp3\DegerVeReferansTipler\obj\Debug\DegerVeReferansTipler.exe
+C:\Users\CASPER\source\repos\ConsoleApp3\DegerVeReferansTipler\obj\Debug\DegerVeReferansTipler.pdb
