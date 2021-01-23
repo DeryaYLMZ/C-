@@ -1,2 +1,2 @@
 
-Nesne Yönelimli Programlama Giriş Konuları ile ilgili yazdığım temel kodları içerir.
+Nesne Yönelimli Programlama ile ilgili yazdığım temel kodları içerir.
