@@ -1,0 +1,7 @@
+C:\Users\CASPER\source\repos\ConsoleApp3\Interface\bin\Debug\Interface.exe.config
+C:\Users\CASPER\source\repos\ConsoleApp3\Interface\bin\Debug\Interface.exe
+C:\Users\CASPER\source\repos\ConsoleApp3\Interface\bin\Debug\Interface.pdb
+C:\Users\CASPER\source\repos\ConsoleApp3\Interface\obj\Debug\Polymorhipsm.csprojAssemblyReference.cache
+C:\Users\CASPER\source\repos\ConsoleApp3\Interface\obj\Debug\Polymorhipsm.csproj.CoreCompileInputs.cache
+C:\Users\CASPER\source\repos\ConsoleApp3\Interface\obj\Debug\Interface.exe
+C:\Users\CASPER\source\repos\ConsoleApp3\Interface\obj\Debug\Interface.pdb
